@@ -3,7 +3,7 @@ log_level = 2
 
 [[http2]]
 listen = ":8443"
-server_name = ["govps-usa.7e14.starter-us-west-2.openshiftapps.com"]
+server_name = ["govps-root.7e14.starter-us-west-2.openshiftapps.com"]
 proxy_fallback = "http://www.baidu.com:80"
 pem = """
 -----BEGIN EC PARAMETERS-----
